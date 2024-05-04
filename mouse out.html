@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>
+mouseout and mouse over </title>
+</head>
+<body>
+
+<center><h1>working with mouseover and mouseout </h1></center>
+<hr color="purple" >
+<script language="javascript">
+    function over()
+    {
+        document.getElementById('key').innerHTML="onmouseover event has occurred";
+    }
+    function out()
+    {
+        document.getElementById('key').innerHTML="onmouseout event has occurred";
+    }
+    </script>
+ 
+  
+<h2 id="key" onmouseover="over()" onmouseout="out()" >orignal text</h2>
+
+</body>
+</html>
